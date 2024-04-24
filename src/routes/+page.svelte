@@ -91,7 +91,7 @@
             
             <br>
 
-            <p>I love tech, people, and their intersection. I also love explaining complex ideas (ironic, given my propensity to overengineer things) and working on logistically heavy ideas with high impact. <br> I currently do a little bit of everything at [<a class="codeday" link="https://codeday.org">CodeDay</a>]. I meet new people, organize fun events, conduct workshops, ideate and implement new programs, and occasionally don a costume.</p>
+            <p>I love tech, people, and their intersection. I also love explaining complex ideas (ironic, given my propensity to overengineer things) and working on logistically heavy ideas with high impact. <br> I currently do a little bit of everything at [<a class="codeday" href="https://codeday.org">CodeDay</a>]. I meet new people, organize fun events, conduct workshops, ideate and implement new programs, and occasionally don a costume.</p>
         
             
             
