@@ -45,6 +45,7 @@
         text-decoration: underline;
         background-color: #FF686B;
         color: white;
+        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     .sicp {
         color: cadetblue;
@@ -55,6 +56,7 @@
         text-decoration: underline;
         background-color: cadetblue;
         color: white;
+        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     .email {
         cursor: pointer;
@@ -65,6 +67,7 @@
         color: #fff;
         background-color: #000;
         text-decoration: underline;
+        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
     }
     
 </style>
@@ -103,8 +106,8 @@
                 I'm currently trying to read [<a class='sicp' href="https://sarabander.github.io/sicp/html/index.xhtml">SICP</a>] and program in LISP, while also trying to revive my hopes at an academic comeback.
             </p>
             <br> <br>
-            <p>Hit me up if you wanna talk about anything, I love a brain-picking session. So... What gives? <br><b>Email:</b> [<a class="email" href="mailto:prateek.deshmukh19@gmail.com">prateek.deshmukh19@gmail.com</a>]</p>
-            
+            <p>Hit me up if you wanna talk about anything, I love a brain-picking session. So... What gives? <br><b>Email:</b> [<a class="email" href="mailto:hello@prateekdeshmukh.com">hello@prateekdeshmukh.com</a>]</p>
+            <br><br>
         </div>
     </div>
 </center>
