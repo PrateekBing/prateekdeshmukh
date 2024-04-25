@@ -39,36 +39,39 @@
         color: #FF686B;
         cursor: pointer;
         text-decoration: none;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
     }
     .codeday:hover {
-        text-decoration: underline;
+        text-decoration: none;
         background-color: #FF686B;
         color: white;
-        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     }
     .sicp {
         color: cadetblue;
         cursor: pointer;
         text-decoration: none;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
     }
     .sicp:hover {
-        text-decoration: underline;
+        text-decoration: none;
         background-color: cadetblue;
         color: white;
-        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    }
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
     .email {
         cursor: pointer;
         text-decoration: none;
         color: #000;
-    }
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
     .email:hover {
         color: #fff;
         background-color: #000;
-        text-decoration: underline;
-        transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-    }
+        text-decoration: none;
+        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+        }
     
 </style>
 
