@@ -2,7 +2,12 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'cadetblue': 'cadetblue',
+        'codeday-red': '#FF686B',
+      },
+    },
   },
   plugins: [],
 }
