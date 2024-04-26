@@ -1,117 +1,37 @@
-<style>
-    * {
-        background-color: #f5f5f5;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        padding-top: 1vh;
-    }
-    body {
-        height: 100vh;
-        padding: 0;
-    }
-    
-    .container {
-        max-width: 800px;
-        padding: 0 20px;
-    }
-    
-    hr {
-        border: 0;
-        border-top: 2px solid;
-        margin-top: 5px;
-    }
+<style lang="postcss">
     .jersey-15-regular {
         font-family: "Jersey 15", sans-serif;
-        font-weight: 400;
-        font-style: normal;
         font-size: 50px;
-        text-align: left;
     }
-    .content {
-        text-align: left;
-    }
-    p {
-            color: #000;
-            font: 400 19px/1.5 'Anek Devanagari', sans-serif;
-        }
-    .codeday {
-        color: #FF686B;
-        cursor: pointer;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 
+    p {
+        font: 400 19px/1.6 'Anek Devanagari', sans-serif;
     }
-    .codeday:hover {
-        text-decoration: none;
-        background-color: #FF686B;
-        color: white;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+
+    a {
+        font-family: Arial, sans-serif;
     }
-    .sicp {
-        color: cadetblue;
-        cursor: pointer;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-    }
-    .sicp:hover {
-        text-decoration: none;
-        background-color: cadetblue;
-        color: white;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-        }
-    .email {
-        cursor: pointer;
-        text-decoration: none;
-        color: #000;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-        }
-    .email:hover {
-        color: #fff;
-        background-color: #000;
-        text-decoration: none;
-        transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-        }
-    
 </style>
 
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Hind+Madurai:wght@300;400;500;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<svelte:head>
     <title>Prateek Deshmukh</title>
-</head>
+</svelte:head>
 
-<body>
-    <center>
-    <div class="container">
-        
-        <header>
-            <h1 class="jersey-15-regular">Prateek Deshmukh</h1>
-            <hr>
-        </header>
-        
-        <div class="content">
-            <p>Hello there. I'm a full-time engineering sophomore from Bengaluru.</p>
-            
-            <br>
+<div class="flex flex-col items-center min-h-screen p-4">
+    <h1 class="max-w-screen-md jersey-15-regular text-left border-b-2 border-neutral-500 mb-5 w-full">Prateek Deshmukh</h1>
+    <div class="flex flex-col gap-5 max-w-screen-md text-xl">
+        <p class="inline-block align-top">Hello there. I'm a full-time engineering sophomore from Bengaluru.</p>
 
-            <p>I love tech, people, and their intersection. I also love explaining complex ideas (ironic, given my propensity to overengineer things) and working on logistically heavy ideas with high impact. <br> I currently do a little bit of everything at [<a class="codeday" href="https://codeday.org">CodeDay</a>]. I meet new people, organize fun events, conduct workshops, ideate and implement new programs, and occasionally don a costume.</p>
-        
-            
-            
-            <br>
+        <p class="align-bottom">I love tech, people, and their intersection. I also love explaining complex ideas (ironic, given my propensity to overengineer things) and working on logistically heavy ideas with high impact. <br> I currently do a little bit of everything at [<a class="text-codeday-red hover:text-white hover:bg-codeday-red transition" href="https://codeday.org">CodeDay</a>]. I meet new people, organize fun events, conduct workshops, ideate and implement new programs, and occasionally don a costume.</p>
 
-            <p>Apart from this I enjoy a good ol' debate, cooking pasta, playing badminton, and watching F1. The driving question all my life has been "What gives?" and I've gone to.. interesting ends in my pursuit to answer it.</p>
+        <p>Apart from this I enjoy a good ol' debate, cooking pasta, playing badminton, and watching F1. The driving question all my life has been "What gives?" and I've gone to.. interesting ends in my pursuit to answer it.</p>
 
-            <p>
-                I'm currently trying to read [<a class='sicp' href="https://sarabander.github.io/sicp/html/index.xhtml">SICP</a>] and program in LISP, while also trying to revive my hopes at an academic comeback.
-            </p>
-            <br> <br>
-            <p>Hit me up if you wanna talk about anything, I love a brain-picking session. So... What gives? <br><b>Email:</b> [<a class="email" href="mailto:hello@prateekdeshmukh.com">hello@prateekdeshmukh.com</a>]</p>
-            <br><br>
-        </div>
+        <p>I'm currently trying to read [<a class="text-cadetblue hover:text-white hover:bg-cadetblue transition" href="https://sarabander.github.io/sicp/html/index.xhtml">SICP</a>] and program in LISP, while also trying to revive my hopes at an academic comeback.</p>
+
+        <p class="mt-5"> Hit me up if you wanna talk about anything, I love a brain-picking session. So... What gives?</p>
+        <p class="mt-[-1em]">
+	        <span class="font-bold">Email:</span>
+	        [<a class="text-black hover:text-white hover:bg-black transition" href="mailto:hello@prateekdeshmukh.com">hello@prateekdeshmukh.com</a>]
+        </p>
     </div>
-</center>
-</body>
+</div>
